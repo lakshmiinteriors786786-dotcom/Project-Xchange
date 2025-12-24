@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Xchange | Time is the New Currency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>Xchange</h1>
+    <p>Your Time. Your Currency.</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Teach what you know. Learn what you don’t.</h2>
+    <p>Exchange skills using time instead of money.</p>
+    <button onclick="showMarketplace()">Explore Skills</button>
+  </section>
+
+  <!-- Problem -->
+  <section class="section">
+    <h2>Problem</h2>
+    <p>
+      Many students want help in coding, music, design, or academics but can’t afford paid courses.
+      Others have skills but no platform to exchange them.
+    </p>
+  </section>
+
+  <!-- Solution -->
+  <section class="section light">
+    <h2>Solution</h2>
+    <p>
+      Xchange is a time-based skill exchange platform.
+      Teach 1 hour → Earn 1 Time Credit → Learn any skill.
+    </p>
+  </section>
+
+  <!-- Marketplace -->
+  <section class="section" id="marketplace">
+    <h2>Skill Marketplace</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Python Programming</h3>
+        <p>1 Hour = 1 Credit</p>
+        <button>Request</button>
+      </div>
+
+      <div class="card">
+        <h3>Guitar Lessons</h3>
+        <p>1 Hour = 1 Credit</p>
+        <button>Request</button>
+      </div>
+
+      <div class="card">
+        <h3>Resume Guidance</h3>
+        <p>1 Hour = 1 Credit</p>
+        <button>Request</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wallet -->
+  <section class="section light">
+    <h2>Your Wallet</h2>
+    <p><strong>Available Time Credits:</strong> <span id="credits">2</span></p>
+    <button onclick="earnCredit()">Teach & Earn Credit</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Xchange | Built for Students</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
